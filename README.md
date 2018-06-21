@@ -9,7 +9,9 @@
   ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_goodeggs_rsa
   ssh-add ~/.ssh/id_goodeggs_rsa
   ssh-add -L # Put this key in github
+  ssh -T git@github.com  
   ```
+  if you need to check the github host keys (to accept) see [LINK](https://help.github.com/articles/github-s-ssh-key-fingerprints/)
   * Add your key to [github](https://github.com/settings/keys) after you've signed in
   * __Side note, I need everyone's github username to add as a collaborator__
 
