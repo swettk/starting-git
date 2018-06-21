@@ -49,6 +49,7 @@
 ## Cleanup
   * `git branch -D <branchname>` deletes a local branch
   * `git remote prune origin` cleans up your local tracking against `origin` -- after the remote branch was deleted following a pull request
+  * `git push origin --delete <remote-branch>` Deletes a remote branch without merge **Bail Out!**
 
 ## Pulling other's changes
   * `git remote show origin` shows you what's going on with the `origin`
