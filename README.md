@@ -14,7 +14,7 @@
   * __Side note, I need everyone's github username to add as a collaborator__
 
 ## Clone a repo
-  * [Tutorial](https://github.com/swettk/starting-git)
+  * [This Repo](https://github.com/swettk/starting-git)
   * This gives you a **LOCAL** copy to your workstation
   * Creates a new **REMOTE** with a special name of `origin` (all you need for our use case)
   * We are NOT creating a **FORK**, everyone has permissions on the main repo
@@ -80,7 +80,7 @@
   * `git tag`
 
 ## Steal single changes from other branches
-  * `git cherry-pick <sha of change>
+  * `git cherry-pick <sha of change>`
 
 ## Handy History rewriting
   * `git rebase -i <your historical commit>`
